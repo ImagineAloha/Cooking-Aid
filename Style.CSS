@@ -35,9 +35,9 @@ p {
     align-items: center;
 }
 .spin {
-    transition: transform 4s;
+    transition: transform 1.1s;
 }
 .spin:hover {
-    transform: rotate(360deg) matrix(0.4, 0, 0.5, 1.2, 60, 10) scale(3);
+    transform: rotate(360deg) scale(1.02);
 }
 
