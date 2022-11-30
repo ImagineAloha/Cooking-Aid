@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,500&display=swap%27");
+*{
+    text-align: center;
+}
+p {
+    max-width: 500px;
+}
+.button {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    background-color: rgb(28, 219, 210);
+    border-radius: 5px;
+    font-size: 1.3rem;
+    transition: transform  .2s;
+    max-width: fit-content;
+    font-family: 'Rubik', sans-serif;
+    align-content: center;
+}
+.button:hover   {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.buttons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.foodpics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spin {
+    transition: transform 4s;
+}
+.spin:hover {
+    transform: rotate(360deg) matrix(0.4, 0, 0.5, 1.2, 60, 10) scale(3);
+}
+
