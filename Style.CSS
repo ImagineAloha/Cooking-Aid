@@ -4,6 +4,10 @@
 }
 p {
     max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
 }
 .button {
     text-decoration: none;
@@ -30,12 +34,12 @@ p {
     justify-content: center;
 }
 .foodpics {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
 .spin {
-    transition: transform 1.1s;
+    transition: transform 3.1s;
 }
 .spin:hover {
     transform: rotate(360deg) scale(1.02);
